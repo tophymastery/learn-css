@@ -12,6 +12,7 @@ section {
 
 .jumbotron {
   background: url(../img/site_showcase_bg.jpg) no-repeat top center;
+  background-size: cover;
   color: #ffffff;
   height: 442px;
   overflow: none;
@@ -31,7 +32,7 @@ section {
 }
 
 .jumbotron img.showcase-img {
-  width: 75%;
+  height: 394px;
 }
 
 img.demo {
@@ -51,6 +52,18 @@ section#feature ul li {
   font-size: 18px;
   list-style: none;
   line-height: 2.2em;
+}
+
+section#title-bar {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  background: #1caa98;
+  color: #fff;
+}
+
+section#title-bar h1 {
+  margin-bottom: 20px;
 }
 
 footer {
